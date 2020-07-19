@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import httpCode from './assets/http-codes.png';
+import TechList from './components/TechList';
 
 function App() {
-  return <img width="200" src={httpCode} />
+  return <TechList />
 }
 
 export default App;
