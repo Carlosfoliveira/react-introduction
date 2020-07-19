@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import httpCode from './assets/http-codes.png';
+
 function App() {
-  return <h1>Hello Rocketseat</h1>
+  return <img width="200" src={httpCode} />
 }
 
 export default App;
